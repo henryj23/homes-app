@@ -1,3 +1,4 @@
+
 .results {
     display: grid;
     column-gap: 14px;
@@ -5,6 +6,8 @@
     grid-template-columns: repeat(auto-fill, minmax(400px, 400px));
     margin-top: 50px;
     justify-content: space-around;
+    font-family: "Lucida Console", "Courier New", monospace;
+    
   }
 
  .primary {
@@ -12,7 +15,7 @@
   border: 1px solid #0077CC;
   border-radius: 4px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  background-color: #ffffff;
   cursor: pointer;
   direction: ltr;
   display: block;
@@ -29,6 +32,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
+  background-color: beige;
 }
 
 .primary:disabled {

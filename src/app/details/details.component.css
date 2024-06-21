@@ -1,3 +1,5 @@
+
+
 .listing-photo {
     height: 600px;
     width: 50%;
@@ -7,16 +9,19 @@
   }
   
   .listing-heading {
+    font-family: "Lucida Console", "Courier New", monospace;
     font-size: 48pt;
     font-weight: bold;
     margin-bottom: 15px;
   }
   
   .listing-location::before {
+    
     content: url('/assets/location-pin.svg') / '';
   }
   
   .listing-location {
+    font-family: "Lucida Console", "Courier New", monospace;
     font-size: 24pt;
     margin-bottom: 15px;
   }
